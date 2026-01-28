@@ -74,3 +74,79 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.enterprise-description {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.enterprise-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.enterprise-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #000;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.enterprise-first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto 1rem;
+}
+
+.enterprise-image {
+    width: 400px;
+    height: auto;
+    margin: 0;
+    border-radius: 30px;
+}
+
+.second-enterprise-text{
+     font-size: 1rem;
+    line-height: 1.6;
+    color: #000;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.oyster-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.oyster-image{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.oyster-description{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #000;
+    text-align: center;
+    margin: 1rem auto 4rem;
+    max-width: 600px;
+}
