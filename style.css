@@ -12,7 +12,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(0,80, 0, 1) 90%);
+  background: linear-gradient(180deg, rgb(0, 60, 40) 10%, lightgrey 100%);
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -52,8 +52,9 @@ body {
 }
 
 .hero-image {
-    width: 800px;
+    width: 600px;
     height: auto;
+    border-radius: 20px;
 }
 
 .hero-logo {
@@ -109,6 +110,8 @@ body {
     gap: 2rem;
     max-width: 1000px;
     margin: 0 auto 1rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .enterprise-image {
@@ -124,6 +127,7 @@ body {
     color: #000;
     text-align: right;
     margin-bottom: 2rem;
+    padding: 1rem 2rem;
 }
 
 .oyster-title{
@@ -134,19 +138,38 @@ body {
     color: #000;
 }
 
+.oyster-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.oyster-item{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.oyster-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
 .oyster-image{
-    width: 400px;
+    width: 350px;
     height: auto;
-    margin: 0 auto;
-    display: block;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background-color: #fff;
 }
 
 .oyster-description{
-    padding: 1rem 1rem;
+    padding: 1rem;
     font-size: 1rem;
     line-height: 1.6;
     color: #000;
-    text-align: center;
-    margin: 1rem auto 4rem;
-    max-width: 600px;
+    text-align: left;
+    flex: 1;
 }
